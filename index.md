@@ -26,9 +26,9 @@ Add testhub upload step to your build process.
   - Windows https://github.com/testhub-io/testhub-cli/releases/download/v0.10/testhub-cli_v0.10_windows_386.tar.gz
 
 
-  For example: 
-  
+  Install (Linux):   
   `curl https://github.com/testhub-io/testhub-cli/releases/download/v0.10/testhub-cli_v0.10_linux_386.tar.gz --output testhub-cli.tar.gz -L  && tar -xzf testhub-cli.tar.gz`    
+  
 2. Run
 
 `./testhub-cli upload  -t d2c49022ac2d491bb00292fa4457ba950934bf62 --build $BUILD_NAME  --project $ORG/$PROJECT_NAME --pattern $GLOB_PATTERN_FOR_TEST_FILES`
