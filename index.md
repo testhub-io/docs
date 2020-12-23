@@ -1,6 +1,6 @@
 Testhub is an easy way to aggregate and analyze test results. 
 
-### Getting started 
+## Getting started 
 
 There is not need in creating account or registering. All you need is to use one of the integration methods to start uploading test results. 
 
