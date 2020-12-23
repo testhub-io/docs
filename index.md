@@ -13,28 +13,41 @@ Add our Github action: https://github.com/marketplace/actions/test-results-uploa
     test_coverage_pattern: "/target/site/jacoco/jacoco.xml"
   ```
 
+Results will be available under `http://test-hub.io/[GITHUB_ORGANISATION]` url
+
 #### Testhub-cli
 
 Add testhub upload step to your build process. 
 1. Download CLI: 
+
   - Linux https://github.com/testhub-io/testhub-cli/releases/download/v0.10/testhub-cli_v0.10_linux_386.tar.gz
   - Darwin https://github.com/testhub-io/testhub-cli/releases/download/v0.10/testhub-cli_v0.10_darwin_amd64.tar.gz
   - Windows https://github.com/testhub-io/testhub-cli/releases/download/v0.10/testhub-cli_v0.10_windows_386.tar.gz
-  
+
+
   For example: 
-  'curl https://github.com/testhub-io/testhub-cli/releases/download/v0.10/testhub-cli_v0.10_linux_386.tar.gz --output testhub-cli.tar.gz -L  && tar -xzf testhub-cli.tar.gz'
+  
+  `curl https://github.com/testhub-io/testhub-cli/releases/download/v0.10/testhub-cli_v0.10_linux_386.tar.gz --output testhub-cli.tar.gz -L  && tar -xzf testhub-cli.tar.gz`    
 2. Run
-`./testhub-cli upload  -t d2c49022ac2d491bb00292fa4457ba950934bf62 --build $BUILD_NAME  --project jenkins-x/$PROJECT_NAME --pattern $GLOB_PATTERN_FOR_TEST_FILES`
-`$BUILD_NAME` - test run name or build name. Usually a build number
-`$PROJECT_NAME` - name of a project, for example  jx-platform
-`$GLOB_PATTERN_FOR_TEST_FILES` - glob pattern to search for test files, like `/target/surefire-reports/**/*.xml`. We support JUnit but it could be easily extended
-you can specifu the root folder where cli starts search using `-r` flag
+
+`./testhub-cli upload  -t d2c49022ac2d491bb00292fa4457ba950934bf62 --build $BUILD_NAME  --project $ORG/$PROJECT_NAME --pattern $GLOB_PATTERN_FOR_TEST_FILES`
+- `$BUILD_NAME` - test run name or build name. Usually a build number
+- `$ORG` - organisation name, all test results will be available under this organisation name 
+- `$PROJECT_NAME` - project name, usually it's is same a git  repository name 
+- `$GLOB_PATTERN_FOR_TEST_FILES` - glob pattern to search for test files, like `/target/surefire-reports/**/*.xml`. 
+
+We support JUnit but it could be easily extended you can specify the root folder where cli starts search using `-r` flag
+  
+Results will be available under `http://test-hub.io/[ORG]`
   
 #### Docker image
 If you build system support using docker images you can use our pre-build image  
 - [Testhub Docker image](https://hub.docker.com/r/testhubio/cli)
 refer to docker images 
 
+
+### Results 
+Your test results will be available 
 
 ### Support or Contact
 
