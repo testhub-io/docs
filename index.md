@@ -1,4 +1,4 @@
-## TestHub documentation
+## TestHub Documentation
 
 Testhub is an easy way to aggregate and analyze test results. 
 
