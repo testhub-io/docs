@@ -43,7 +43,7 @@ Results will be available under `http://test-hub.io/[ORG]`
 #### Docker image
 If you build system support using docker images you can use our pre-build image  
 - [Testhub Docker image](https://hub.docker.com/r/testhubio/cli)
-refer to docker images 
+refer to docker images description to see the execution parameters 
 
 
 ### Results 
