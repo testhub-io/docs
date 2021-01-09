@@ -33,7 +33,7 @@ Add testhub upload step to your build process.
   
 2. Run
 
-`./testhub-cli upload  -t d2c49022ac2d491bb00292fa4457ba950934bf62 --build $BUILD_NAME  --project $ORG/$PROJECT_NAME --pattern $GLOB_PATTERN_FOR_TEST_FILES`
+`./testhub-cli upload  -t [API_TOKEN] --build $BUILD_NAME  --project $ORG/$PROJECT_NAME --pattern $GLOB_PATTERN_FOR_TEST_FILES`
 - `$BUILD_NAME` - test run name or build name. Usually a build number
 - `$ORG` - organisation name, all test results will be available under this organisation name 
 - `$PROJECT_NAME` - project name, usually it's is same a git  repository name 
