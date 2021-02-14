@@ -36,7 +36,7 @@ Add testhub upload step to your build process.
 
 
   Install (Linux):   
-  `curl https://github.com/testhub-io/testhub-cli/releases/download/v0.10/testhub-cli_v0.10_linux_386.tar.gz --output testhub-cli.tar.gz -L  && tar -xzf testhub-cli.tar.gz`    
+  `curl https://github.com/testhub-io/testhub-cli/releases/download/v0.13b/testhub-cli_v0.13b_linux_386.tar.gz --output testhub-cli.tar.gz -L  && tar -xzf testhub-cli.tar.gz`    
   
 2. Run
 
