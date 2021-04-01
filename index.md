@@ -61,4 +61,6 @@ Your test results will be available
 
 ### Support or Contact
 
-Contact us [thetesthubio@gmail.com](mailto:thetesthubio@gmail.com) or create an issue in [Github Issues](https://github.com/testhub-io/docs/issues)
+- Contact us [thetesthubio@gmail.com](mailto:thetesthubio@gmail.com) 
+- create an issue in [Github Issues](https://github.com/testhub-io/docs/issues) 
+- [join our Slack channel](https://join.slack.com/t/testhub-hq/shared_invite/zt-nzectxr4-lfTqqUbsSJiZpnFDUXVsYQ)
