@@ -2,7 +2,7 @@ Testhub is an easy way to aggregate and analyze test results.
 
 ## Getting started 
 
-There is not need in creating account or registering. All you need is to use one of the integration methods to start uploading test results.  
+There is no need in creating account or registering. All you need is to use one of the integration methods to start uploading test results.  
 Please refer to our examples to check how it looks like: [https://test-hub.io/testhub-io-examples](https://test-hub.io/testhub-io-examples)
 
 ⛔ Testhub makes test results available publicly. If you don't want to share this information please contact us. 
